@@ -7,7 +7,7 @@ venv/
 .venv/
 
 # Data / results
-dataset/
+data/
 results/
 runs/
 
