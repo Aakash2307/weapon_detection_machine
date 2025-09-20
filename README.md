@@ -1,4 +1,4 @@
-# 🔫 Weapon Detection System (Firearms & Improvised Weapons)
+# 🔫 Weapon Detection System 
 
 ![Project Banner](docs/banner.png) <!-- Optional banner image -->
 
@@ -60,9 +60,6 @@ The system processes **videos or images** to identify and highlight weapons, and
 
 ## 📈 Results
 - Firearms and improvised weapons successfully detected in test videos/images  
-
-
-> Include more images/videos from `runs/` folder to demonstrate performance.
 
 ---
 
