@@ -6,7 +6,7 @@ def fix_labels(base_dir):
     Ensures every image has a matching .txt label file.
     If missing, creates an empty .txt file.
     """
-    image_exts = [".jpg", ".jpeg", ".png"]
+    image_exts = [".jpg", ".jpeg", ".png" , ".webp"]
 
     for split in ["train", "val", "test"]:
         img_dir = Path(base_dir) / "images" / split
