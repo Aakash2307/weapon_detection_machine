@@ -55,16 +55,14 @@ The system processes **videos or images** to identify and highlight weapons, and
 - Display **annotated video or image** with bounding boxes  
 - Show **alert** if a firearm or improvised weapon is detected  
 
-**Screenshot Preview:**  
-![Streamlit Demo](docs/streamlit_demo.png)
 
 ---
 
 ## 📈 Results
 - Firearms and improvised weapons successfully detected in test videos/images  
 - Example detections:  
-  - ![Pistol Detection](docs/pistol_detect.png)  
-  - ![Metal Rod Detection](docs/metal_rod_detect.png)  
+  - ![Firearm Detection](runs\detect\predict2\weapon1.jpg)  
+  - ![broken_glass Detection](docs/metal_rod_detect.png)  
   - ![No Weapon](docs/no_weapon.png)  
 
 > Include more images/videos from `runs/` folder to demonstrate performance.
