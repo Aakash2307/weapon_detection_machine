@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # 🔫 Weapon Detection System 
 
