@@ -84,16 +84,6 @@ Final results after **50 epochs of training**:
 
 ---
 
-## 📸 Screenshots of Project
-### 🔹 Sample Detection Results  
-| Detection Example 1 | Detection Example 2 | Detection Example 3 |  
-|----------------------|----------------------|----------------------|  
-| ![Detection 1](need/gun.jpg) | ![Detection 2](need/broken_bottle.png) | ![Detection 3](need/knife.jpg) |
-
-> ⚠️ If images are not visible, check the `need` folder in the repo.  
-
----
-
 ## 📈 Results
 - Successfully detected firearms and improvised weapons in test samples.  
 - Bounding boxes drawn around detected threats.  
@@ -120,7 +110,7 @@ Final results after **50 epochs of training**:
 ```bash
 # Clone the repository
 git clone <YOUR_REPO_URL>
-cd weapon_detection_machine
+cd weapon-detection-system
 
 # Create a virtual environment
 python -m venv venv
@@ -129,11 +119,11 @@ source venv/bin/activate
 # Windows
 venv\Scripts\activate
 
-# Install dependencies
+# Upgrade pip and install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Train the model
+# Train the model (optional)
 yolo train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
 
 # Validate the model
