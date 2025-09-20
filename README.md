@@ -1,11 +1,9 @@
 <<<<<<< HEAD
-cat << 'EOF' > README.md
-# 🔫 Weapon Detection System (Firearms & Improvised Weapons)
-=======
-# 🔫 Weapon Detection System 
->>>>>>> cbf53b6103592618d4ab15bc07db7b2402acbdb0
 
-![Project Banner](docs/banner.png) <!-- Optional banner image -->
+# 🔫 Weapon Detection System 
+
+
+
 
 ---
 
@@ -59,10 +57,10 @@ The system processes **videos or images** to identify and highlight weapons, and
 ## 📊 Weapon Detection Accuracy Metrics
 Final results after **50 epochs of training**:  
 
-- **Precision:** **36.8%**  
+- **Precision:** **76.8%**  
 - **Recall:** **75.5%**  
 - **mAP@0.5:** **79.6%**  
-- **mAP@0.5:0.95:** *(check `results.png`, expected ~55–65%)*  
+- **mAP@0.5:0.95:** *( expected ~55–65%)*  
 
 ---
 
