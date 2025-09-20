@@ -38,7 +38,7 @@ The system processes **videos or images** to identify and highlight weapons, and
   - Epochs: 50  
   - Image Size: 640x640  
   - Batch Size: depends on system  
-- **Metrics:** Precision, Recall, mAP (see `results.png`)  
+- **Metrics:** Precision, Recall, mAP (see results folder)  
 
 ---
 
