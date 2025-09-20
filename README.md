@@ -114,3 +114,28 @@ if unable to see the image please refer the images present in the need folder
 ```bash
 git clone <YOUR_REPO_URL>
 cd weapon_detection_machine
+
+#create a virtual Environment
+python -m venv venv
+# Linux/Mac
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+#install all the dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+
+#Train the model
+yolo train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
+
+
+#Validate the model
+yolo val model=runs/detect/train/weights/best.pt data=data.yaml
+
+#Run the streamlit app 
+streamlit run interface.py
+
+# use any video you want it will run on this 
+yolo detect predict model=runs/detect/train/weights/best.pt source="test.mp4"
