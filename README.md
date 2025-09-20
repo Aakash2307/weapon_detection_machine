@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 cat << 'EOF' > README.md
 # 🔫 Weapon Detection System (Firearms & Improvised Weapons)
+=======
+# 🔫 Weapon Detection System 
+>>>>>>> cbf53b6103592618d4ab15bc07db7b2402acbdb0
 
 ![Project Banner](docs/banner.png) <!-- Optional banner image -->
 
@@ -91,8 +95,11 @@ Final results after **50 epochs of training**:
 - Successfully detected firearms and improvised weapons in test samples.  
 - Bounding boxes drawn around detected threats.  
 
+<<<<<<< HEAD
 > More results can be added from validation runs and real-world test videos.
 
+=======
+>>>>>>> cbf53b6103592618d4ab15bc07db7b2402acbdb0
 ---
 
 ## ⚠️ Limitations
