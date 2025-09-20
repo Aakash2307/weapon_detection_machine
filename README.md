@@ -60,10 +60,7 @@ The system processes **videos or images** to identify and highlight weapons, and
 
 ## 📈 Results
 - Firearms and improvised weapons successfully detected in test videos/images  
-- Example detections:  
-  - ![Firearm Detection](runs\detect\predict2\weapon1.jpg)  
-  - ![broken_glass Detection](docs/metal_rod_detect.png)  
-  - ![No Weapon](docs/no_weapon.png)  
+
 
 > Include more images/videos from `runs/` folder to demonstrate performance.
 
