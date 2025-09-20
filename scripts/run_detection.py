@@ -6,8 +6,8 @@ import os
 model = YOLO("best.pt")  # replace with your trained weights
 
 # Input and output folders
-input_folder = "frames/test_video3"
-output_folder = "frames_detected/"
+input_folder = "frames/test_video2"
+output_folder = "frames_detected/test_video3"
 os.makedirs(output_folder, exist_ok=True)
 
 # Process all frames
