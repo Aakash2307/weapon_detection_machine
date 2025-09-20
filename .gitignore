@@ -8,8 +8,14 @@ venv/
 
 # Data / results
 data/
-results/
+
 runs/
 
 # Model weights
 *.pt
+
+
+# weapon_detection dataset
+
+frames/
+frames_detected/
