@@ -81,6 +81,8 @@ Final results after **50 epochs of training**:
 |----------------------|----------------------|----------------------|  
 | ![Detection 1](need/gun.jpg) | ![Detection 2](need/broken_bottle.png) | ![Detection 3](need/knife.jpg) |
 
+if unable to see the image please refer the images present in the need folder
+
 ---
 
 ## 📈 Results
