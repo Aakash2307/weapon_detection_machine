@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 cat << 'EOF' > README.md
 # 🔫 Weapon Detection System (Firearms & Improvised Weapons)
-=======
-# 🔫 Weapon Detection System 
->>>>>>> cbf53b6103592618d4ab15bc07db7b2402acbdb0
-
-![Project Banner](docs/banner.png) <!-- Optional banner image -->
 
 ---
 
@@ -59,10 +53,10 @@ The system processes **videos or images** to identify and highlight weapons, and
 ## 📊 Weapon Detection Accuracy Metrics
 Final results after **50 epochs of training**:  
 
-- **Precision:** **36.8%**  
+- **Precision:** **76.8%**  
 - **Recall:** **75.5%**  
 - **mAP@0.5:** **79.6%**  
-- **mAP@0.5:0.95:** *(check `results.png`, expected ~55–65%)*  
+- **mAP@0.5:0.95:** *(expected ~55–65%)*  
 
 ---
 
@@ -83,11 +77,9 @@ Final results after **50 epochs of training**:
 
 ## 📸 Screenshots of Project
 ### 🔹 Sample Detection Results  
-| Detection Example 1 | Detection Example 2 |  
-|----------------------|----------------------|  
-| ![Detection 1](need/gun.jpg) | ![Detection 2](need/broken_bottle.png) |  ![Detection 1](need/knife.jpg)
-
-
+| Detection Example 1 | Detection Example 2 | Detection Example 3 |  
+|----------------------|----------------------|----------------------|  
+| ![Detection 1](need/gun.jpg) | ![Detection 2](need/broken_bottle.png) | ![Detection 3](need/knife.jpg) |
 
 ---
 
@@ -95,11 +87,8 @@ Final results after **50 epochs of training**:
 - Successfully detected firearms and improvised weapons in test samples.  
 - Bounding boxes drawn around detected threats.  
 
-<<<<<<< HEAD
 > More results can be added from validation runs and real-world test videos.
 
-=======
->>>>>>> cbf53b6103592618d4ab15bc07db7b2402acbdb0
 ---
 
 ## ⚠️ Limitations
@@ -120,50 +109,6 @@ Final results after **50 epochs of training**:
 ## 💻 Installation & Running Scripts
 
 ### 🔹 1. Clone Repo
-\`\`\`bash
+```bash
 git clone <YOUR_REPO_URL>
 cd weapon_detection_machine
-\`\`\`
-
-### 🔹 2. Create Virtual Environment
-\`\`\`bash
-python -m venv venv
-# Linux/Mac
-source venv/bin/activate
-# Windows
-venv\Scripts\activate
-\`\`\`
-
-### 🔹 3. Install Dependencies
-\`\`\`bash
-pip install --upgrade pip
-pip install -r requirements.txt
-\`\`\`
-
-### 🔹 4. Train the Model (optional)
-\`\`\`bash
-yolo train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
-\`\`\`
-
-### 🔹 5. Validate Model
-\`\`\`bash
-yolo val model=runs/detect/train/weights/best.pt data=data.yaml
-\`\`\`
-
-### 🔹 6. Run Streamlit App
-\`\`\`bash
-streamlit run interface.py
-\`\`\`
-
-### 🔹 7. Run Inference on Media
-\`\`\`bash
-yolo detect predict model=runs/detect/train/weights/best.pt source="test.mp4"
-\`\`\`
-
----
-
-## 👨‍💻 Contributors
-- **Your Name** – Developer  
-
----
-EOF
