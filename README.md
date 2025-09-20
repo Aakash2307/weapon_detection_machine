@@ -53,10 +53,19 @@ The system processes **videos or images** to identify and highlight weapons, and
 ## 📊 Weapon Detection Accuracy Metrics
 Final results after **50 epochs of training**:  
 
-- **Precision:** **76.8%**  
+- **Precision:** **36.8%**  
 - **Recall:** **75.5%**  
 - **mAP@0.5:** **79.6%**  
 - **mAP@0.5:0.95:** *(expected ~55–65%)*  
+
+---
+
+## 📊 Model Performance
+
+> **Important Note:**  
+> The reported precision of the model is currently **36.8%**, which reflects the limitations of the available dataset.  
+> Despite the low precision metric, the model **successfully detects weapons** in the test images and videos, demonstrating a working pipeline.  
+> Users can further improve performance by training on a **larger and more diverse dataset**.
 
 ---
 
