@@ -81,15 +81,13 @@ Final results after **50 epochs of training**:
 |----------------------|----------------------|----------------------|  
 | ![Detection 1](need/gun.jpg) | ![Detection 2](need/broken_bottle.png) | ![Detection 3](need/knife.jpg) |
 
-if unable to see the image please refer the images present in the need folder
+> ⚠️ If images are not visible, check the `need` folder in the repo.  
 
 ---
 
 ## 📈 Results
 - Successfully detected firearms and improvised weapons in test samples.  
 - Bounding boxes drawn around detected threats.  
-
-> More results can be added from validation runs and real-world test videos.
 
 ---
 
@@ -108,34 +106,32 @@ if unable to see the image please refer the images present in the need folder
 
 ---
 
-## 💻 Installation & Running Scripts
+## 💻 Installation & Running (All-in-One)
 
-### 🔹 1. Clone Repo
 ```bash
+# Clone the repository
 git clone <YOUR_REPO_URL>
 cd weapon_detection_machine
 
-#create a virtual Environment
+# Create a virtual environment
 python -m venv venv
 # Linux/Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
 
-#install all the dependencies
+# Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-
-#Train the model
+# Train the model
 yolo train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
 
-
-#Validate the model
+# Validate the model
 yolo val model=runs/detect/train/weights/best.pt data=data.yaml
 
-#Run the streamlit app 
+# Run the Streamlit app
 streamlit run interface.py
 
-# use any video you want it will run on this 
+# Run inference on a video
 yolo detect predict model=runs/detect/train/weights/best.pt source="test.mp4"
